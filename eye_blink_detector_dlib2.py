@@ -1,6 +1,4 @@
 import requests
-#import tkinter
-#import tkinter.font
 import threading
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -18,9 +16,6 @@ from geopy.distance import geodesic
 import os
 import ssl
 import urllib3
-#from PIL import Image, ImageTk  # Pillowライブラリを使って画像をTkinterに表示
-#from tkinter import Label
-#from tkinter import StringVar
 import streamlit as st
 import numpy as np
 
