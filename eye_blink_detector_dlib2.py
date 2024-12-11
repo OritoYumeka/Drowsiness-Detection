@@ -118,13 +118,6 @@ def get_location_thread():
                 if current_lat is not None and current_lng is not None:
                     distance_to_dest = geodesic((current_lat, current_lng), (dest_lat, dest_lng)).kilometers
                     print(f"現在地と目的地の距離: {distance_to_dest:.2f} km")
-                    
-                    # 目的地に近づいたら通知
-                    if distance_to_dest < 1 and not measurement_active:
-                        send_notification("目的地接近", f"目的地まで{distance_to_dest:.2f} kmです")
-                        measurement_active = True
-                    else:
-                        measurement_active = False
 
 def drowsiness_detection_thread():
     global start_flag, quitting_flag, count ,bad_count,measurement_active
