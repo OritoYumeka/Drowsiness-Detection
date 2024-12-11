@@ -1,2 +1,5 @@
-matplotlib
 streamlit
+matplotlib
+numpy
+opencv-python
+dlib
