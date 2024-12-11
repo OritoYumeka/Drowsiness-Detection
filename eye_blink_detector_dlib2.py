@@ -1,6 +1,6 @@
 import requests
-import tkinter
-import tkinter.font
+#import tkinter
+#import tkinter.font
 import threading
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -18,9 +18,10 @@ from geopy.distance import geodesic
 import os
 import ssl
 import urllib3
-from PIL import Image, ImageTk  # Pillowライブラリを使って画像をTkinterに表示
-from tkinter import Label
-from tkinter import StringVar
+#from PIL import Image, ImageTk  # Pillowライブラリを使って画像をTkinterに表示
+#from tkinter import Label
+#from tkinter import StringVar
+import streamlit as st
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 ssl._create_default_https_context = ssl._create_unverified_context
