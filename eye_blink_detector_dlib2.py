@@ -37,10 +37,6 @@ cap = None  # カメラのVideoCaptureオブジェクトを格納
 MAPS_API_KEY = 'AIzaSyCZkFgsU30wpK-PjIe7MKQgAZuLlhT3qrY'
 gmaps = googlemaps.Client(key=MAPS_API_KEY)
 
-# iCloud account information
-#username = 'yumekokura@icloud.com'
-#password = 'Yumeme12'
-
 device=None
 api = None  # iCloud APIオブジェクト
 
