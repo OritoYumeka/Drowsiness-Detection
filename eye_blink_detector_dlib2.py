@@ -5,7 +5,6 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import cv2
 import time
 import mediapipe as mp
-#from plyer import notification
 import sys
 import dlib
 from imutils import face_utils
